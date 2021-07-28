@@ -36,7 +36,7 @@ This assignment also includes some visual feedback. Once you have sourced setup_
 Once you run your code, these bodies will position themselves in space according to the transforms your code is publishing. The cylinder denotes the object, the cube and arrow the robot and camera respectively. If your code works correctly, you should see the arrow point out of the cube directly at the cylinder. Here is an example of the correct output (note that the colored axes show you the location of the base coordinate frame with the usual convention: x-red, y-green, z-blue):
 
 
-![Project2]()
+![Project2](https://github.com/edaaydinea/CSMM103X-Robotics/blob/main/Project2/Project2.jpg)
 
 ## Setup
 As always, make sure to source setup_project2.sh  before trying to invoke any ROS commands (catkin_make, roscd, etc.). This will also start a roscore for your session. Please do not start your own roscore.
