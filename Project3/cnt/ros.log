@@ -1,0 +1,105 @@
+BR: Port for WebSocketServer: 46205
+BR: Running cmd: roslaunch rosbridge_server rosbridge_websocket.launch port:=46205
+BR: ... logging to /mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/.ros/log/ed35b472-d2d2-11eb-8fc7-0668aee0b619/roslaunch-ip-172-31-26-230-1932.log
+BR: Checking log directory for disk usage. This may take awhile.
+BR: Press Ctrl-C to interrupt
+ROSCORE: ... logging to /mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/.ros/log/e77f8a58-d2d2-11eb-8fc7-0668aee0b619/roslaunch-ip-172-31-26-230-1907.log
+ROSCORE: Checking log directory for disk usage. This may take awhile.
+ROSCORE: Press Ctrl-C to interrupt
+BR: Done checking log file disk usage. Usage is <1GB.
+ROSCORE: Done checking log file disk usage. Usage is <1GB.
+BR: ]2;/opt/ros/kinetic/share/rosbridge_server/launch/rosbridge_websocket.launch
+ROSCORE: ]2;roscore
+PUB: [31m[ERROR] [1624308895.738314049]: [registerPublisher] Failed to contact master at [localhost:51857].  Retrying...[0m
+BR: [1mstarted roslaunch server http://ip-172-31-26-230:33350/[0m
+BR: 
+BR: SUMMARY
+BR: ========
+BR: 
+BR: PARAMETERS
+BR:  * /rosapi/params_glob: [*]
+BR:  * /rosapi/services_glob: [*]
+BR:  * /rosapi/topics_glob: [*]
+BR:  * /rosbridge_websocket/address: 
+BR:  * /rosbridge_websocket/authenticate: False
+BR:  * /rosbridge_websocket/bson_only_mode: False
+BR:  * /rosbridge_websocket/delay_between_messages: 0
+BR:  * /rosbridge_websocket/fragment_timeout: 600
+BR:  * /rosbridge_websocket/max_message_size: None
+BR:  * /rosbridge_websocket/params_glob: [*]
+BR:  * /rosbridge_websocket/port: 46205
+BR:  * /rosbridge_websocket/retry_startup_delay: 5
+BR:  * /rosbridge_websocket/services_glob: [*]
+BR:  * /rosbridge_websocket/topics_glob: [*]
+BR:  * /rosbridge_websocket/unregister_timeout: 10
+BR:  * /rosbridge_websocket/use_compression: False
+BR:  * /rosdistro: kinetic
+BR:  * /rosversion: 1.12.14
+BR: 
+BR: NODES
+BR:   /
+BR:     rosapi (rosapi/rosapi_node)
+BR:     rosbridge_websocket (rosbridge_server/rosbridge_websocket)
+BR: 
+ROSCORE: [1mstarted roslaunch server http://ip-172-31-26-230:38140/[0m
+BR: auto-starting new master
+ROSCORE: ros_comm version 1.12.14
+ROSCORE: 
+ROSCORE: 
+ROSCORE: SUMMARY
+ROSCORE: ========
+ROSCORE: 
+ROSCORE: PARAMETERS
+ROSCORE:  * /rosdistro: kinetic
+ROSCORE:  * /rosversion: 1.12.14
+ROSCORE: 
+ROSCORE: NODES
+ROSCORE: 
+ROSCORE: auto-starting new master
+BR: [1mprocess[master]: started with pid [2146][0m
+ROSCORE: [1mprocess[master]: started with pid [2147][0m
+ROSCORE: ERROR: Unable to start XML-RPC server, port 51857 is already in use
+ROSCORE: Unhandled exception in thread started by <bound method XmlRpcNode.run of <rosgraph.xmlrpc.XmlRpcNode object at 0x7fecaae8fd90>>
+ROSCORE: Traceback (most recent call last):
+ROSCORE:   File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/xmlrpc.py", line 215, in run
+ROSCORE:     self._run()
+ROSCORE:   File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/xmlrpc.py", line 284, in _run
+ROSCORE:     self._run_init()
+ROSCORE:   File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/xmlrpc.py", line 234, in _run_init
+ROSCORE:     self.server = ThreadingXMLRPCServer((bind_address, port), log_requests)
+ROSCORE:   File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/xmlrpc.py", line 115, in __init__
+ROSCORE:     SimpleXMLRPCServer.__init__(self, addr, SilenceableXMLRPCRequestHandler, log_requests)
+ROSCORE:   File "/usr/lib/python2.7/SimpleXMLRPCServer.py", line 593, in __init__
+ROSCORE:     SocketServer.TCPServer.__init__(self, addr, requestHandler, bind_and_activate)
+ROSCORE:   File "/usr/lib/python2.7/SocketServer.py", line 417, in __init__
+PUB: [0m[ INFO] [1624308904.572505578]: Connected to master at [localhost:51857][0m
+BR: [1mROS_MASTER_URI=http://localhost:51857[0m
+BR: ]2;/opt/ros/kinetic/share/rosbridge_server/launch/rosbridge_websocket.launch http://localhost:51857
+BR: [1msetting /run_id to ed35b472-d2d2-11eb-8fc7-0668aee0b619[0m
+ROSCORE: [1mROS_MASTER_URI=http://ip-172-31-26-230:51857/[0m
+ROSCORE: ]2;roscore http://ip-172-31-26-230:51857/
+ROSCORE: [31mrun_id on parameter server does not match declared run_id: ed35b472-d2d2-11eb-8fc7-0668aee0b619 vs e77f8a58-d2d2-11eb-8fc7-0668aee0b619[0m
+ROSCORE: [31mThe traceback for the exception was written to the log file[0m
+ROSCORE:     self.server_bind()
+ROSCORE:   File "/usr/lib/python2.7/SocketServer.py", line 431, in server_bind
+ROSCORE:     self.socket.bind(self.server_address)
+ROSCORE:   File "/usr/lib/python2.7/socket.py", line 228, in meth
+ROSCORE: [master] killing on exit
+ROSCORE:     return getattr(self._sock,name)(*args)
+ROSCORE: socket.error: [Errno 98] Address already in use
+BR: [1mprocess[rosout-1]: started with pid [2246][0m
+BR: started core service [/rosout]
+BR: [1mprocess[rosbridge_websocket-2]: started with pid [2263][0m
+BR: [1mprocess[rosapi-3]: started with pid [2266][0m
+BR: registered capabilities (classes):
+BR:  - rosbridge_library.capabilities.call_service.CallService
+BR:  - rosbridge_library.capabilities.advertise.Advertise
+BR:  - rosbridge_library.capabilities.publish.Publish
+BR:  - rosbridge_library.capabilities.subscribe.Subscribe
+BR:  - <class 'rosbridge_library.capabilities.defragmentation.Defragment'>
+BR:  - rosbridge_library.capabilities.advertise_service.AdvertiseService
+BR:  - rosbridge_library.capabilities.service_response.ServiceResponse
+BR:  - rosbridge_library.capabilities.unadvertise_service.UnadvertiseService
+BR: [INFO] [1624308910.155739]: Rosbridge WebSocket server started on port 46205
+KUKA: [0m[ INFO] [1624308938.627545846]: Robot model read with 7 non-fixed joints.[0m
+KUKA: [0m[ INFO] [1624308938.651258192]: Simulated robot spinning[0m

@@ -1,0 +1,25 @@
+ROSCORE: ... logging to /mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/.ros/log/3e189308-c574-11eb-947e-06887db13001/roslaunch-ip-172-31-29-176-24118.log
+ROSCORE: Checking log directory for disk usage. This may take awhile.
+ROSCORE: Press Ctrl-C to interrupt
+ROSCORE: Done checking log file disk usage. Usage is <1GB.
+ROSCORE: ]2;roscore
+ROSCORE: [1mstarted roslaunch server http://ip-172-31-29-176:40167/[0m
+ROSCORE: ros_comm version 1.12.14
+ROSCORE: 
+ROSCORE: 
+ROSCORE: SUMMARY
+ROSCORE: ========
+ROSCORE: 
+ROSCORE: PARAMETERS
+ROSCORE:  * /rosdistro: kinetic
+ROSCORE:  * /rosversion: 1.12.14
+ROSCORE: 
+ROSCORE: NODES
+ROSCORE: 
+ROSCORE: auto-starting new master
+ROSCORE: [1mprocess[master]: started with pid [24175][0m
+ROSCORE: [1mROS_MASTER_URI=http://ip-172-31-29-176:46860/[0m
+ROSCORE: ]2;roscore http://ip-172-31-29-176:46860/
+ROSCORE: [1msetting /run_id to 3e189308-c574-11eb-947e-06887db13001[0m
+ROSCORE: [1mprocess[rosout-1]: started with pid [24192][0m
+ROSCORE: started core service [/rosout]

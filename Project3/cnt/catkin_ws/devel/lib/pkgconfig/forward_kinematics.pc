@@ -1,0 +1,8 @@
+prefix=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/catkin_ws/devel
+
+Name: forward_kinematics
+Description: Description of forward_kinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/catkin_ws/devel/lib 
+Requires: rospy sensor_msgs tf urdfdom_py

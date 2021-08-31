@@ -1,0 +1,8 @@
+prefix=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/devel
+
+Name: project1_solution
+Description: Description of project1_solution
+Version: 0.0.0
+Cflags: -I/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/devel/include
+Libs: -L/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/devel/lib 
+Requires: rospy message_runtime

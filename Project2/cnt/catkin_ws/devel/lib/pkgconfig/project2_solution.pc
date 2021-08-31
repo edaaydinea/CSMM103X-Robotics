@@ -1,0 +1,8 @@
+prefix=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364505_2/asn364506_1/work/catkin_ws/devel
+
+Name: project2_solution
+Description: Description of project2_solution
+Version: 0.0.0
+Cflags: 
+Libs: -L/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364505_2/asn364506_1/work/catkin_ws/devel/lib 
+Requires: 

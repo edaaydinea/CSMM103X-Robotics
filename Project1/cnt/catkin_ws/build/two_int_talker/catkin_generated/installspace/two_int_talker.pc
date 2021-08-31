@@ -1,0 +1,8 @@
+prefix=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/install
+
+Name: two_int_talker
+Description: Description of two_int_talker
+Version: 0.0.0
+Cflags: 
+Libs: -L/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/install/lib 
+Requires: message_runtime

@@ -1,0 +1,182 @@
+
+[Executed at: Tue Aug 3 6:54:20 PDT 2021]
+
+Warning: The process runtime may have reached the allocated threshold of 300 second(s).
+Python version found
+
+-- The C compiler identification is GNU 5.5.0
+-- The CXX compiler identification is GNU 5.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/build/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/local/bin/nosetests-2.7
+-- catkin 0.7.18
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 4 packages in topological order:
+-- ~~  - lwr_defs
+-- ~~  - robot_sim
+-- ~~  - motion_planning
+-- ~~  - lwr_robot_moveit_config
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'lwr_defs'
+-- ==> add_subdirectory(lwr_robot/lwr_defs)
+-- +++ processing catkin package: 'robot_sim'
+-- ==> add_subdirectory(robot_sim)
+-- Boost version: 1.58.0
+-- +++ processing catkin package: 'motion_planning'
+-- ==> add_subdirectory(motion_planning)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'lwr_robot_moveit_config'
+-- ==> add_subdirectory(lwr_robot_moveit_config)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/build
+Scanning dependencies of target robot_sim
+[ 62%] Building CXX object robot_sim/CMakeFiles/robot_sim.dir/src/joint_state_publisher.cpp.o
+[ 62%] Building CXX object robot_sim/CMakeFiles/robot_sim.dir/src/velocity_controller.cpp.o
+[ 62%] Building CXX object robot_sim/CMakeFiles/robot_sim.dir/src/robot.cpp.o
+[ 62%] Building CXX object robot_sim/CMakeFiles/robot_sim.dir/src/trajectory_executer.cpp.o
+[ 62%] Building CXX object robot_sim/CMakeFiles/robot_sim.dir/src/position_controller.cpp.o
+[ 75%] Linking CXX shared library /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/devel/lib/librobot_sim.so
+[ 75%] Built target robot_sim
+Scanning dependencies of target robot_sim_bringup
+[ 87%] Building CXX object robot_sim/CMakeFiles/robot_sim_bringup.dir/src/robot_sim_bringup.cpp.o
+[100%] Linking CXX executable /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/devel/lib/robot_sim/robot_sim_bringup
+[100%] Built target robot_sim_bringup
+Base path: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws
+Source space: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src
+Build space: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/build
+Devel space: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/devel
+Install space: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/install
+Creating symlink "/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src/CMakeLists.txt" pointing to "/opt/ros/kinetic/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src -DCATKIN_DEVEL_PREFIX=/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/install -G Unix Makefiles" in "/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/build"
+####
+####
+#### Running command: "make -j8 -l8" in "/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/build"
+####
+warning: xacro: Traditional processing is deprecated. Switch to --inorder processing!
+To check for compatibility of your document, use option --check-order.
+For more infos, see http://wiki.ros.org/xacro#Processing_Order
+warning: inconsistent namespace redefinitions for xmlns:xacro:
+ old: http://www.ros.org/wiki/xacro
+ new: http://playerstage.sourceforge.net/gazebo/xmlschema/#interface (/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src/lwr_robot/lwr_defs/defs/kuka_lwr_arm_defs.xml)
+warning: deprecated: xacro tags should be prepended with 'xacro' xml namespace.
+Use the following script to fix incorrect usage:
+        find . -iname "*.xacro" | xargs sed -i 's#<\([/]\?\)\(if\|unless\|include\|arg\|property\|macro\|insert_block\)#<\1xacro:\2#g'
+when processing file: /mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src/lwr_robot/lwr_defs/robots/kuka_lwr_arm.urdf.xml
+
+warning: xacro.py is deprecated; please use xacro instead
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+the rosdep view is empty: call 'sudo rosdep init' and 'rosdep update'
+[0m[ INFO] [1627998627.446331272]: Loading robot model 'lwr'...[0m
+[0m[ INFO] [1627998627.446409761]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[33m[ WARN] [1627998627.750206821]: Could not identify parent group for end-effector 'end_effector'[0m
+[0m[ INFO] [1627998628.109696107]: Loading robot model 'lwr'...[0m
+[0m[ INFO] [1627998628.109936900]: No root/virtual joint specified in SRDF. Assuming fixed joint[0m
+[33m[ WARN] [1627998628.111623690]: Could not identify parent group for end-effector 'end_effector'[0m
+[33m[ WARN] [1627998628.111951623]: The root link world_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.[0m
+[0m[ INFO] [1627998628.511525922]: Publishing maintained planning scene on 'monitored_planning_scene'[0m
+[0m[ INFO] [1627998628.538656788]: MoveGroup debug mode is OFF[0m
+[96mStarting context monitors...
+[0m[0m[ INFO] [1627998628.538693953]: Starting scene monitor[0m
+[0m[ INFO] [1627998628.546646268]: Listening to '/planning_scene'[0m
+[0m[ INFO] [1627998628.546678678]: Starting world geometry monitor[0m
+[0m[ INFO] [1627998628.554216613]: Listening to '/collision_object' using message notifier with target frame '/world_link '[0m
+[0m[ INFO] [1627998628.561486760]: Listening to '/planning_scene_world' for planning scene world geometry[0m
+[33m[ WARN] [1627998628.562312222]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead[0m
+[0m[ INFO] [1627998628.587004113]: Listening to '/attached_collision_object' for attached collision objects[0m
+[96mContext monitors started.
+[0m[0m[ INFO] [1627998630.405336118]: Initializing OMPL interface using ROS parameters[0m
+[0m[ INFO] [1627998630.499312898]: Using planning interface 'OMPL'[0m
+[0m[ INFO] [1627998630.506189441]: Param 'default_workspace_bounds' was not set. Using default value: 10[0m
+[0m[ INFO] [1627998630.510359578]: Param 'start_state_max_bounds_error' was set to 0.1[0m
+[0m[ INFO] [1627998630.511892928]: Param 'start_state_max_dt' was not set. Using default value: 0.5[0m
+[0m[ INFO] [1627998630.513007871]: Param 'start_state_max_dt' was not set. Using default value: 0.5[0m
+[0m[ INFO] [1627998630.513990791]: Param 'jiggle_fraction' was set to 0.05[0m
+[0m[ INFO] [1627998630.514921051]: Param 'max_sampling_attempts' was not set. Using default value: 100[0m
+[0m[ INFO] [1627998630.515024486]: Using planning request adapter 'Add Time Parameterization'[0m
+[0m[ INFO] [1627998630.515057076]: Using planning request adapter 'Fix Workspace Bounds'[0m
+[0m[ INFO] [1627998630.515087293]: Using planning request adapter 'Fix Start State Bounds'[0m
+[0m[ INFO] [1627998630.515115623]: Using planning request adapter 'Fix Start State In Collision'[0m
+[0m[ INFO] [1627998630.515143316]: Using planning request adapter 'Fix Start State Path Constraints'[0m
+[96mLoading 'move_group/ApplyPlanningSceneService'...
+[0m[96mLoading 'move_group/ClearOctomapService'...
+[0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
+[0m[96mLoading 'move_group/MoveGroupExecuteService'...
+[0m[96mLoading 'move_group/MoveGroupExecuteTrajectoryAction'...
+[0m[96mLoading 'move_group/MoveGroupGetPlanningSceneService'...
+[0m[96mLoading 'move_group/MoveGroupKinematicsService'...
+[0m[96mLoading 'move_group/MoveGroupMoveAction'...
+[0m[96mLoading 'move_group/MoveGroupPickPlaceAction'...
+[0m[96mLoading 'move_group/MoveGroupPlanService'...
+[0m[96mLoading 'move_group/MoveGroupQueryPlannersService'...
+[0m[96mLoading 'move_group/MoveGroupStateValidationService'...
+[0m[0m[ INFO] [1627998631.139158316]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - PickPlaceAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+[0m
+[0m[ INFO] [1627998631.139217613]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner[0m
+[0m[ INFO] [1627998631.139231898]: MoveGroup context initialization complete[0m
+[92m
+You can start planning now!
+
+[0m[ERROR] [1627998644.403527]: bad callback: <bound method MoveArm.move_arm_cb of <__main__.MoveArm object at 0x7f5d522eb890>>
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 316, in move_arm_cb
+    trajectory = self.project_plan(numpy.array(q_start), q_goal, self.q_min, self.q_max)
+  File "/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 301, in project_plan
+    q_list = self.motion_plan(q_start, q_goal, q_min, q_max)
+  File "/mnt/data2/students/ccc_v1_g_ZjQz_121295/asn364511_5/asn364512_1/1096705/14/work/catkin_ws/src/motion_planning/scripts/motion_planning.py", line 243, in motion_plan
+    new_velocity = (random_point - rrt_list[closest_distance].position)
+TypeError: list indices must be integers, not numpy.float64
+
+timeout: the monitored command dumped core

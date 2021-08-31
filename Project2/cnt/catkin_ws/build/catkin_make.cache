@@ -1,0 +1,2 @@
+marker_publisher:project2_solution
+-DCATKIN_DEVEL_PREFIX=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364505_2/asn364506_1/work/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364505_2/asn364506_1/work/catkin_ws/install -G Unix Makefiles

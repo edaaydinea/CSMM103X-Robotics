@@ -1,0 +1,8 @@
+prefix=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/catkin_ws/install
+
+Name: robot_sim
+Description: Description of robot_sim
+Version: 0.0.0
+Cflags: -I/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/catkin_ws/install/include
+Libs: -L/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364507_3/asn364508_1/work/catkin_ws/install/lib -lrobot_sim
+Requires: roscpp sensor_msgs urdf

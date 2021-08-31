@@ -1,0 +1,2 @@
+project1_solution:two_int_talker
+-DCATKIN_DEVEL_PREFIX=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/mnt/data2/students/sub1/ddd_v1_w_37Vx_629048/asn364503_1/asn364504_1/work/catkin_ws/install -G Unix Makefiles
